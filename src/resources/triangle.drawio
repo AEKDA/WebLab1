@@ -1,0 +1,31 @@
+<mxfile host="Electron" modified="2023-09-12T20:28:56.653Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="Le4vRASySIbhH5cpDJCz" version="21.6.5" type="device">
+  <diagram name="Страница 1" id="L73VCv1zAZGmOXRT7HPu">
+    <mxGraphModel dx="440" dy="327" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qKvPTdoS4OPcEgxv5yzn-1" value="" style="group;shadow=1;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="360" y="100" width="90" height="40.15999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="qKvPTdoS4OPcEgxv5yzn-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="qKvPTdoS4OPcEgxv5yzn-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint as="sourcePoint" />
+            <mxPoint x="80" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKvPTdoS4OPcEgxv5yzn-3" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="qKvPTdoS4OPcEgxv5yzn-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="40" as="sourcePoint" />
+            <mxPoint as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKvPTdoS4OPcEgxv5yzn-4" value="" style="endArrow=none;html=1;rounded=0;exitX=0.499;exitY=0.499;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="qKvPTdoS4OPcEgxv5yzn-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="0.15999999999996817" y="40.15999999999997" as="sourcePoint" />
+            <mxPoint x="80" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./stylesheets/styles.css" rel="stylesheet">
+    <link rel="icon" href="https://se.ifmo.ru/o/favicon/" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script/ValidateFunc.js"></script>
+    <script src="script/OnloadFunc.js"></script>
+    <title>Lab1</title>
+</head>
+
+<body>
+    <header>
+        <section class="author-info">
+            автор: Кешишян Давид Артурович<br>
+            вариант: 2493<br>
+            группа: P3214
+        </section>
+        <section class="lab-info">Лабораторная работа №1</section>
+    </header>
+    <table class="base-table" cellpadding="0" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th colspan="1">
+                    Попадите точкой в график
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <img src="./resources/chart.svg" width="400px" height="400px" class="chart-img" />
+                </td>
+            </tr>
+            <tr>
+                <td>Введите параметры</td>
+            </tr>
+            <tr class="param-block">
+                <td>X</td>
+                <td class="param-radio">
+                    <input id="x-4" name="x-input" type="radio" value="-4"><label for="x-4">-4</label>
+                    <input id="x-3" name="x-input" type="radio" value="-3"><label for="x-3">-3</label>
+                    <input id="x-2" name="x-input" type="radio" value="-2"><label for="x-2">-2</label>
+                    <input id="x-1" name="x-input" type="radio" value="-1"><label for="x-1">-1</label>
+                    <input id="x0" name="x-input" type="radio" value="0" checked><label for="x0">0</label>
+                    <input id="x1" name="x-input" type="radio" value="1"><label for="x1">1</label>
+                    <input id="x2" name="x-input" type="radio" value="2"><label for="x2">2</label>
+                    <input id="x3" name="x-input" type="radio" value="3"><label for="x3">3</label>
+                    <input id="x4" name="x-input" type="radio" value="4"><label for="x4">4</label>
+                </td>
+            </tr>
+            <tr class="param-block">
+                <td>Y</td>
+                <td>
+                    <!-- <input type="text" placeholder="Ввод" class="input-param" id="y-value" maxlength="16"> -->
+                    <input type="text" placeholder="Ввод (-3; 5)" class="input-param" id="y-value" maxlength="16">
+                </td>
+            </tr>
+            <tr class="param-block">
+                <td>R</td>
+                <td>
+                    <select placeholder="Ввод" class="input-param" id="r-value">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" class="input-send" id="clearButton" value="Очистить">
+                    <input type="submit" class="input-send" id="sendButton" value="Проверить">
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td class="output-container">
+                    <table>
+                        <tbody id="outputContainer">
+                            <tr>
+                                <th>X</th>
+                                <th style="width: 20%;">Y</th>
+                                <th>R</th>
+                                <th style="width: 13%;">Res</th>
+                                <th>Текущее время</th>
+                                <th style="width: 18%;">Время работы скрипта</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+</body>
+
+</html>

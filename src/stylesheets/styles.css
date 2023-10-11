@@ -1,0 +1,145 @@
+* {
+    font-family: sans-serif;
+    color: #fff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #191d20;
+}
+
+header {
+    font-size: 1em;
+    top: 0;
+}
+
+.chart-img {
+    filter: invert(1) drop-shadow(0px 0px 8px #14b853cc);
+}
+
+.author-info {
+    text-align: center;
+    font-size: 1em;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.lab-info {
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.base-table {
+    /* box-shadow: 0px 0px 8px 0px #14b853cc; */
+    background-color: #101113;
+    border-radius: 20px;
+    width: 680px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.base-table thead {
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.base-table tbody {
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.base-table tfoot {
+    font-size: 0.6em;
+    text-align: center;
+}
+
+.param-radio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+
+.param-radio input {
+    display: none;
+}
+
+.param-radio label {
+    user-select: none;
+
+    width: 38px;
+    height: 38px;
+    /* box-shadow: 0px 0px 8px 0px #14b853cc; */
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="radio"]:checked+label {
+    box-shadow: 0px 0px 8px 0px #14b853cc;
+}
+
+.param-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6px;
+    background-color: #191d20;
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 16px;
+}
+
+.output-container {
+    padding-top: 12px;
+    font-size: 0.6rem;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+.output-container table {
+    width: 100%;
+    table-layout: fixed;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+
+#outputContainer th,
+#outputContainer td {
+    border: 1px solid rgb(112, 112, 112);
+    word-wrap: break-word;
+    white-space: pre-line;
+}
+
+
+.input-param {
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px #14b853cc;
+    border: none;
+    outline: none;
+    background-color: #191d20;
+}
+
+.input-send {
+    background-color: #14b853cc;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+}
+
+.input-send:hover {
+    background-color: #18d25fcc;
+}
